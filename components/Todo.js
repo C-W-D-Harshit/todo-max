@@ -120,6 +120,7 @@ export default function Todo() {
                         _id: tod._id,
                       };
                       setTj(bh);
+                      handleGet();
                     }}
                   >
                     Toggle
